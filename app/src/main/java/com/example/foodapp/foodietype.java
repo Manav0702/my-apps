@@ -26,19 +26,19 @@ public class foodietype extends AppCompatActivity {
 
             }
             if(position==1) {
-                myintent = new Intent(view.getContext(), BurgerActivity.class);
+                myintent = new Intent(view.getContext(), Chocolate.class);
             }
             if(position==2) {
-                myintent = new Intent(view.getContext(), BurgerActivity.class);
+                myintent = new Intent(view.getContext(), Thali.class);
             }
             if(position==3) {
-                myintent = new Intent(view.getContext(),BurgerActivity.class);
+                myintent = new Intent(view.getContext(),Chinese.class);
             }
             if(position==4) {
-                myintent = new Intent(view.getContext(), BurgerActivity.class);
+                myintent = new Intent(view.getContext(), PizzaActivity.class);
             }
             if(position==5) {
-                myintent = new Intent(view.getContext(), BurgerActivity.class);
+                myintent = new Intent(view.getContext(), Sandwich.class);
             }
             startActivity(myintent);
         });

@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApp">
-        <activity android:name=".Summary3"></activity>
+        <activity android:name=".Sandwich"></activity>
+        <activity android:name=".Thali" />
+        <activity android:name=".Chinese" />
+        <activity android:name=".Chocolate" />
+        <activity android:name=".PizzaActivity" />
+        <activity android:name=".Summary3" />
         <activity android:name=".Summary2" />
         <activity android:name=".foodietype" />
         <activity android:name=".AddressActivity" />

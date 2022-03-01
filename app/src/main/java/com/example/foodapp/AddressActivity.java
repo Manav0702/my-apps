@@ -27,14 +27,14 @@ public class AddressActivity extends AppCompatActivity {
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  if(name.equals("")||number.equals("")||address.equals(""))
-                //T//oast.makeText(address.this,"Pls Enter All The Fields",Toast.LENGTH_SHORT).show();
-
-                //else {
-                Toast.makeText(AddressActivity.this, "YOUR ORDER HAS BEEN SUCCESSFULLY PLACED", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(getApplicationContext(), BurgerActivity.class);
-                startActivity(intent);
-
+                  if(name.equals("")||number.equals("")||address.equals("")) {
+                      Toast.makeText(AddressActivity.this, "Pls Enter All The Fields", Toast.LENGTH_SHORT).show();
+                  }
+                else {
+                      Toast.makeText(AddressActivity.this, "YOUR ORDER HAS BEEN SUCCESSFULLY PLACED", Toast.LENGTH_LONG).show();
+                      Intent intent = new Intent(getApplicationContext(), foodietype.class);
+                      startActivity(intent);
+                  }
             }});
     }
 }

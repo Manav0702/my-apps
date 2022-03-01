@@ -32,7 +32,7 @@ public class Foodie extends BaseAdapter {
     }
     public Integer[]mThumblIds={
             R.drawable.burger, R.drawable.pastry,
-            R.drawable.chines, R.drawable.noodles,
+            R.drawable.t1, R.drawable.noodles,
             R.drawable.pizza, R.drawable.sandwich
 
     };
